@@ -16,7 +16,7 @@
 
 ## 🎯 EXECUTIVE SUMMARY
 
-**20+ years** of experience as a **quality-focused Technical Leader** specializing in solution design, engineering excellence, and digital transformation. Proven track record in architecting and deliv[...]
+**20+ years** of experience as a **quality-focused Technical Leader** specializing in solution design, engineering excellence, and digital transformation. Proven track record in architecting and delivering scalable, high-impact solutions that drive measurable business outcomes.
 
 **Core Expertise:** Full-stack development • Cloud architecture • Team leadership • DevOps practices • Enterprise systems
 
