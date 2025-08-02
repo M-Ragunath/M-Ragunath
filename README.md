@@ -1,170 +1,6 @@
-<style>
-:root {
-    /* Light theme variables */
-    --bg-gradient-start: #667eea;
-    --bg-gradient-end: #764ba2;
-    --container-bg: rgba(255, 255, 255, 0.95);
-    --container-border: rgba(255, 255, 255, 0.2);
-    --header-gradient-start: #f093fb;
-    --header-gradient-end: #f5576c;
-    --text-primary: #1f2937;
-    --text-secondary: #4c1d95;
-    --text-accent: #6366f1;
-    --section-bg: rgba(248, 250, 252, 0.8);
-    --details-bg: rgba(248, 250, 252, 0.6);
-    --details-border: rgba(102, 126, 234, 0.2);
-    --summary-bg: rgba(102, 126, 234, 0.1);
-    --blockquote-bg: rgba(102, 126, 234, 0.1);
-    --shadow-color: rgba(0, 0, 0, 0.1);
-    --divider-gradient-start: #667eea;
-    --divider-gradient-end: #764ba2;
-}
+<div align="center">
 
-/* Dark theme variables */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-gradient-start: #1a1a2e;
-        --bg-gradient-end: #16213e;
-        --container-bg: rgba(30, 41, 59, 0.95);
-        --container-border: rgba(71, 85, 105, 0.3);
-        --header-gradient-start: #6366f1;
-        --header-gradient-end: #8b5cf6;
-        --text-primary: #f1f5f9;
-        --text-secondary: #a78bfa;
-        --text-accent: #818cf8;
-        --section-bg: rgba(51, 65, 85, 0.6);
-        --details-bg: rgba(51, 65, 85, 0.4);
-        --details-border: rgba(139, 92, 246, 0.3);
-        --summary-bg: rgba(139, 92, 246, 0.2);
-        --blockquote-bg: rgba(139, 92, 246, 0.15);
-        --shadow-color: rgba(0, 0, 0, 0.3);
-        --divider-gradient-start: #6366f1;
-        --divider-gradient-end: #8b5cf6;
-    }
-}
-
-body {
-    background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
-    min-height: 100vh;
-    margin: 0;
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--text-primary);
-    transition: all 0.3s ease;
-}
-
-.resume-container {
-    background: var(--container-bg);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    box-shadow: 0 20px 40px var(--shadow-color);
-    padding: 40px;
-    margin: 0 auto;
-    max-width: 900px;
-    border: 1px solid var(--container-border);
-    transition: all 0.3s ease;
-}
-
-.header-section {
-    background: linear-gradient(135deg, var(--header-gradient-start) 0%, var(--header-gradient-end) 100%);
-    margin: -40px -40px 30px -40px;
-    padding: 40px;
-    border-radius: 20px 20px 0 0;
-    color: white;
-    text-align: center;
-}
-
-.section-divider {
-    background: linear-gradient(90deg, var(--divider-gradient-start), var(--divider-gradient-end));
-    height: 3px;
-    border: none;
-    border-radius: 2px;
-    margin: 30px 0;
-    transition: all 0.3s ease;
-}
-
-table {
-    background: var(--section-bg);
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 4px 12px var(--shadow-color);
-    transition: all 0.3s ease;
-}
-
-details {
-    background: var(--details-bg);
-    border-radius: 12px;
-    padding: 15px;
-    margin: 10px 0;
-    border: 1px solid var(--details-border);
-    transition: all 0.3s ease;
-}
-
-details summary {
-    cursor: pointer;
-    font-weight: 600;
-    color: var(--text-secondary);
-    padding: 10px;
-    border-radius: 8px;
-    background: var(--summary-bg);
-    transition: all 0.3s ease;
-}
-
-details[open] summary {
-    margin-bottom: 15px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: var(--text-primary);
-    transition: color 0.3s ease;
-}
-
-h2 {
-    color: var(--text-secondary);
-    border-bottom: 2px solid var(--divider-gradient-start);
-    padding-bottom: 5px;
-}
-
-h3 {
-    color: var(--text-accent);
-}
-
-blockquote {
-    background: var(--blockquote-bg);
-    border-left: 4px solid var(--divider-gradient-start);
-    padding: 20px;
-    border-radius: 0 12px 12px 0;
-    font-style: italic;
-    color: var(--text-secondary);
-    transition: all 0.3s ease;
-}
-
-/* Ensure links work well in both themes */
-a {
-    color: var(--text-accent);
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: var(--header-gradient-start);
-}
-
-/* Enhanced contrast for better readability */
-strong {
-    color: var(--text-primary);
-    font-weight: 600;
-}
-
-/* Smooth transitions for theme switching */
-* {
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-}
-</style>
-
-<div class="resume-container">
-<div class="header-section">
-
-<img src="image.png" width="120" height="120" style="border-radius: 60px; object-fit: cover; border: 3px solid white; box-shadow: 0 8px 16px rgba(0,0,0,0.2);"/>
+<img src="image.png" width="120" height="120" style="border-radius: 60px;"/>
 
 # RAGUNATH MARKANDAN
 ### 🚀 Lead Engineer | Solution Architect | Technical Consultant
@@ -175,66 +11,35 @@ strong {
 📍 **Upper Hutt, Wellington, New Zealand**
 
 </div>
-</div>
 
-<hr class="section-divider">
+---
 
 ## 🎯 EXECUTIVE SUMMARY
 
-**20+ years** of experience as a **quality-focused Technical Leader** specializing in solution design, engineering excellence, and digital transformation. Proven track record in architecting and delivering scalable, high-impact solutions that drive measurable business outcomes.
+**20+ years** of experience as a **quality-focused Technical Leader** specializing in solution design, engineering excellence, and digital transformation. Proven track record in architecting and deliv[...]
 
 **Core Expertise:** Full-stack development • Cloud architecture • Team leadership • DevOps practices • Enterprise systems
 
 > *"Transforming complex technical challenges into elegant, scalable solutions that deliver continuous value"*
 
-<hr class="section-divider">
+---
 
 ## 💻 TECHNICAL EXPERTISE
 
-<table>
-<tr>
-<td><strong>🚀 Languages</strong></td>
-<td>C# • Java • Python • JavaScript</td>
-</tr>
-<tr>
-<td><strong>🧪 Testing</strong></td>
-<td>xUnit • Cypress • Selenium • Playwright • JUnit • TestNG</td>
-</tr>
-<tr>
-<td><strong>💾 Data</strong></td>
-<td>Snowflake • SQL Server • PostgreSQL • MongoDB • DynamoDB • Couchbase • Oracle</td>
-</tr>
-<tr>
-<td><strong>📡 Messaging</strong></td>
-<td>AWS SQS/SNS • Apache Kafka • IBM MQ • RabbitMQ</td>
-</tr>
-<tr>
-<td><strong>⚡ Serverless</strong></td>
-<td>AWS Lambda • Azure Functions • Step Functions • Logic Apps</td>
-</tr>
-<tr>
-<td><strong>🐳 Containers</strong></td>
-<td>Amazon EKS • Azure AKS • Red Hat OpenShift</td>
-</tr>
-<tr>
-<td><strong>🏗️ IaC</strong></td>
-<td>Terraform • AWS CDK • PowerShell • Vagrant</td>
-</tr>
-<tr>
-<td><strong>🔄 CI/CD</strong></td>
-<td>TeamCity • Azure Pipelines • AWS CodePipeline • Jenkins • Spinnaker</td>
-</tr>
-<tr>
-<td><strong>☁️ Cloud</strong></td>
-<td>AWS • Microsoft Azure • VMware vCenter</td>
-</tr>
-<tr>
-<td><strong>📊 Monitoring</strong></td>
-<td>Dynatrace • Sumo Logic • New Relic • Datadog</td>
-</tr>
-</table>
+| Area | Skills |
+|------|---------|
+| **🚀 Languages** | C# • Java • Python • JavaScript |
+| **🧪 Testing** | xUnit • Cypress • Selenium • Playwright • JUnit • TestNG |
+| **💾 Data** | Snowflake • SQL Server • PostgreSQL • MongoDB • DynamoDB • Couchbase • Oracle |
+| **📡 Messaging** | AWS SQS/SNS • Apache Kafka • IBM MQ • RabbitMQ |
+| **⚡ Serverless** | AWS Lambda • Azure Functions • Step Functions • Logic Apps |
+| **🐳 Containers** | Amazon EKS • Azure AKS • Red Hat OpenShift |
+| **🏗️ IaC** | Terraform • AWS CDK • PowerShell • Vagrant |
+| **🔄 CI/CD** | TeamCity • Azure Pipelines • AWS CodePipeline • Jenkins • Spinnaker |
+| **☁️ Cloud** | AWS • Microsoft Azure • VMware vCenter |
+| **📊 Monitoring** | Dynatrace • Sumo Logic • New Relic • Datadog |
 
-<hr class="section-divider">
+---
 
 ## 🏢 PROFESSIONAL EXPERIENCE
 
@@ -253,7 +58,7 @@ strong {
 
 </details>
 
-<hr class="section-divider">
+---
 
 ### ⚡ Senior Engineer
 **Xero Ltd** | 📅 *Apr 2018 – Nov 2021* | 📍 *Wellington, NZ*
@@ -283,7 +88,7 @@ strong {
 
 </details>
 
-<hr class="section-divider">
+---
 
 ### 🏛️ Technical Lead/Technical Consultant
 **DXC Technology** | 📅 *Oct 2012 – Apr 2018* | 📍 *Wellington, NZ*
@@ -308,7 +113,7 @@ strong {
 
 </details>
 
-<hr class="section-divider">
+---
 
 ### 🏗️ Technical Architect/Technical Lead
 **HCL Technologies** | 📅 *Jun 2010 – Sep 2012* | 📍 *Wellington, NZ*
@@ -334,7 +139,7 @@ strong {
 
 </details>
 
-<hr class="section-divider">
+---
 
 ### 💊 Senior Software Engineer
 **iSOFT R&D PVT Ltd** | 📅 *Jun 2008 – Jun 2010* | 📍 *India*
@@ -359,7 +164,7 @@ strong {
 
 </details>
 
-<hr class="section-divider">
+---
 
 ### 🌐 Software Engineer
 **TEKSOFT CS PVT LTD** | 📅 *May 2003 – Jun 2008* | 📍 *India*
@@ -383,14 +188,14 @@ strong {
 
 </details>
 
-<hr class="section-divider">
+---
 
 ## 🎓 EDUCATION
 
 🏛️ **Master of Computer Applications** | Bharathidasan University, India  
 🏛️ **Bachelor of Computer Applications** | Bharathidasan University, India
 
-<hr class="section-divider">
+---
 
 ## 🌟 KEY DIFFERENTIATORS
 
@@ -400,12 +205,10 @@ strong {
 - 🌍 **Global Experience**: Led distributed teams across multiple time zones and cultures
 - 📈 **Business Impact**: Consistent delivery of solutions that drive measurable business outcomes
 
-<hr class="section-divider">
+---
 
 <div align="center">
 
 *"Bridging the gap between complex technical challenges and elegant business solutions"*
-
-</div>
 
 </div>
