@@ -406,8 +406,6 @@ strong {
 
 *"Bridging the gap between complex technical challenges and elegant business solutions"*
 
-**Last Updated: August 2025** | **Available for opportunities in New Zealand and Australia**
-
 </div>
 
 </div>
